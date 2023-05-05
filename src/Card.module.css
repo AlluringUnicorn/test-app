@@ -9,7 +9,11 @@
   );
   box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
   border-radius: 20px;
+  list-style: none;
+  margin-bottom: 35px;
 }
+
+
 
 .logo {
   position: relative;
@@ -41,8 +45,12 @@
   height: 15px;
 }
 
+.user{
+  text-align: center;
+  margin-top: -50px;
+}
+
 .tweets {
-  margin-top: -30px;
   text-align: center;
 }
 
