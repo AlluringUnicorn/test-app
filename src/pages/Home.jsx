@@ -9,11 +9,11 @@ export const Home = () => {
     <div className={css.container}>
       <h1 className={css.heading}>Follow peoples thoughts</h1>
       <div className={css.btn_div}>
-        <button className={css.btn} type="button">
-          <Link to="/tweets" state={location} className={css.link}>
+        <Link to="/tweets" state={location} className={css.link}>
+          <button className={css.btn} type="button">
             To Tweets
-          </Link>
-        </button>
+          </button>
+        </Link>
       </div>
     </div>
   );
