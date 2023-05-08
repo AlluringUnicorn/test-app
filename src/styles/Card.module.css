@@ -13,8 +13,6 @@
   margin-bottom: 35px;
 }
 
-
-
 .logo {
   position: relative;
   left: 20px;
@@ -25,17 +23,27 @@
 
 .main_img {
   margin-left: 36px;
-  width:308px;
+  width: 308px;
   height: 168px;
 }
 
-.avatar {
+.avatar_frame {
   position: relative;
   top: -20px;
   left: 150px;
   z-index: 10;
   width: 80px;
   height: 80px;
+}
+
+.avatar {
+  position: relative;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  bottom: 35px;
+  left: 82px;
+  z-index: 10;
 }
 
 .line {
@@ -45,7 +53,7 @@
   height: 15px;
 }
 
-.user{
+.user {
   text-align: center;
   margin-top: -50px;
 }
@@ -79,11 +87,10 @@
 }
 
 .btn:hover {
-    background-color: #5CD3A8;
+  background-color: #5cd3a8;
 }
 
-.btn_following{
+.btn_following {
   composes: btn;
-  background-color: #5CD3A8;
+  background-color: #5cd3a8;
 }
-

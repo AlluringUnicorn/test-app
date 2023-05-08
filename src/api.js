@@ -18,3 +18,8 @@ export async function changeFollowers(id, userUpd) {
   const { data } = await axios.put(`/users/${id}`, userUpd);
   return data;
 }
+
+export async function fetchUser(id) {
+  const { data } = await axios.put(`/users/${id}`);
+  return data;
+}

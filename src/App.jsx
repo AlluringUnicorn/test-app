@@ -1,8 +1,12 @@
-import { CardsList } from "./CardsList";
-
-
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Tweets } from "./pages/Tweets";
 
 export const App = () => {
-
-  return <CardsList/>;
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/tweets" element={<Tweets />} />
+    </Routes>
+  );
 };

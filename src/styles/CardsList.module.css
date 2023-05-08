@@ -24,8 +24,19 @@
     cursor: pointer;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .btn:hover {
     background-color: #5CD3A8;
+}
+
+.btn:disabled{
+    background-color: grey;
+    cursor: auto;
+}
+
+.btn_div{
+    display: flex;
+    justify-content: center;
 }
